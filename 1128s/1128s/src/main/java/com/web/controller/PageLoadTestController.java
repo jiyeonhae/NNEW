@@ -28,4 +28,9 @@ public class PageLoadTestController {
         return "test/test2";
     }
     //요청, 호출 - requestmapping ~~~ return - 응답
+    @RequestMapping(value = "/map",method = RequestMethod.GET)
+    public String kakaoMap()
+    {
+        return "map";
+    }
 }
