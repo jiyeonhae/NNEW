@@ -2,7 +2,6 @@ package com.example.Dec3rd.controller;
 
 import com.example.Dec3rd.dto.CategoryDto;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
